@@ -1,0 +1,14 @@
+"AddonInfo"
+{
+	"name" "SligWolf's Hands"
+	"author_name" "Author Name"
+	"info" "
+{
+	"description": "Description",
+	"type": "vehicle",
+	"tags": 
+	[
+		"fun"
+	]
+}"
+}
