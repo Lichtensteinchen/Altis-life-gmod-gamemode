@@ -40,6 +40,7 @@ end
 
 --[[ Spieler verlässt den Server]]--
 function GM:PlayerDisconnected( ply )
+	MsgC( Color( 255, 0, 0 ), "[Altis Life]", Color(255, 255, 255), "Player: " .. name .. "has left the game." ) -- Console print MIT farbe
 	ply:databaseDisconnect()
 end
 

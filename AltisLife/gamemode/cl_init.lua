@@ -11,3 +11,9 @@ local function keyQ()
 	end
 end
 hook.Add( "Think", "q_pressed", keyQ )
+
+function ChangeMyTeam( ply, cmd, args )
+    ply:SetTeam( args[1] )
+    ply:Spawn()
+end
+concommand.Add( "set_team", ChangeMyTeam )
